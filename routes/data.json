@@ -1,0 +1,31 @@
+[
+    {"ID#":1, "Term":"DevOps",
+    "Description":"DevOps is a set of practices and cultural philosophies that aim to automate and integrate the processes between software development and IT operations teams. It emphasizes collaboration, communication, and the use of tools to increase the efficiency and speed of software delivery while maintaining stability and reliability.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing,"},
+
+    {"ID#":2, "Term":"Waterfall Model","Description":"The Waterfall model is a traditional software development approach where each phase of the development process follows a linear, sequential order. It starts with gathering requirements and progresses through design, implementation, testing, deployment, and maintenance. Changes in requirements during later stages can be challenging to implement.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing,"},
+    {"ID#":3, "Term":"Continuous Integration (CI)","Description":"Continuous Integration is a software development practice where developers frequently integrate their code into a shared repository. Each integration triggers automated tests to detect and fix integration issues early, ensuring that the codebase remains stable.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing, "},
+
+    {"ID#":4, "Term":"Continuous Deployment (CD):","Description":"Continuous Deployment is an extension of Continuous Integration, where every code change that passes automated tests is automatically deployed to production. It aims to achieve a faster and more frequent release cycle.",
+    "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
+
+    {"ID#":5, "Term":"Agile Development","Description":"Agile is an iterative and incremental approach to software development. It emphasizes collaboration, flexibility, and customer feedback to deliver value to customers quickly and adapt to changing requirements.",
+    "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
+
+    {"ID#":6, "Term":"Version Control","Description":"Version control, also known as source control, is the practice of tracking changes to code or files over time. It allows multiple developers to collaborate on a project, manage different versions of the code, and revert to previous versions if needed. Git is a popular version control system.",
+    "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
+
+    {"ID#":7, "Term":"Microservices","Description":"Microservices is an architectural style where a large application is broken down into smaller, loosely coupled services. Each service can be developed, deployed, and scaled independently, allowing for easier maintenance and scalability.",
+    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"},
+    {"ID#":8, "Term":"Scrum","Description":"Scrum is an agile framework for managing and developing software. It emphasizes iterative and incremental development, with fixed-length iterations called sprints. Scrum includes ceremonies like daily stand-ups, sprint planning, sprint review, and sprint retrospective.",
+    "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
+
+    {"ID#":9, "Term":"Continuous Testing","Description":"Continuous Testing is the process of running automated tests throughout the software development lifecycle to obtain rapid feedback on the quality of the code. It is an integral part of CI/CD pipelines to catch and fix defects early in the development process.",
+    "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
+
+    {"ID#":10, "Term":"Infrastructure as a Service (IaaS)","Description":"Infrastructure as a Service is a cloud computing model where virtualized computing resources (such as servers, storage, and networking) are provided over the internet. IaaS allows developers to access and manage infrastructure resources on-demand without having to manage physical hardware.",
+    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"}
+
+    ]

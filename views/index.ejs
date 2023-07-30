@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= sub %></p>
+    <table>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+
+      <% (names).forEach((name) => { %>
+      <tr>
+        <td>
+          <%= name["ID#"] %>
+        </td>
+        <td>
+          <%= name["Term"] %>
+        </td>
+        <td>
+          <%= name["Description"] %>
+        </td>
+        <td>
+          <%= name["References"] %>
+        </td>
+      </tr>
+   <% })  %>
+    </table>
+
+  </body>
+</html>
