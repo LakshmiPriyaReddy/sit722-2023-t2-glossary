@@ -26,6 +26,26 @@
     "References":"Vadapalli, S. 2018, DevOps : continuous delivery, integration, and deployment with DevOps : dive into the core DevOps strategies / Sricharan Vadapalli, Packt Publishing,"},
 
     {"ID#":10, "Term":"Infrastructure as a Service (IaaS)","Description":"Infrastructure as a Service is a cloud computing model where virtualized computing resources (such as servers, storage, and networking) are provided over the internet. IaaS allows developers to access and manage infrastructure resources on-demand without having to manage physical hardware.",
-    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"}
+    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"},
+    {"ID#":11, "Term":"Continuous Integration (CI)","Description":"Continuous Integration is a software development practice where developers frequently integrate their code into a shared repository. Each integration triggers automated tests to detect and fix integration issues early, ensuring that the codebase remains stable.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing"},
+    {"ID#":12, "Term":"Scrum","Description":"Scrum is an agile framework for managing and developing software. It emphasizes iterative and incremental development, with fixed-length iterations called sprints. Scrum includes ceremonies like daily stand-ups, sprint planning, sprint review, and sprint retrospective.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing"},
+    {"ID#":13, "Term":"Monitoring","Description":" Monitoring involves tracking the performance and health of applications and infrastructure to detect and respond to issues. Observability goes beyond traditional monitoring and emphasizes capturing and analyzing system behavior, making it easier to understand and troubleshoot complex systems.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing,"},
+    {"ID#":14, "Term":"Git","Description":"Git is a distributed version control system used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects, track changes, and manage different versions of code.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing,"},
+    {"ID#":15, "Term":"Kubernetes","Description":"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides tools for automating the deployment, scaling, and operation of application containers across clusters of hosts.",
+    "References":"Coupland, M., 2021, DevOps Adoption Strategies : Principles, Processes, Tools, and Trends / Coupland, Martyn, Packt Publishing,"},
+    {"ID#":16, "Term":"Deployment Pipeline","Description":" A deployment pipeline is a set of automated processes that allow code changes to be tested and deployed to production in a controlled and repeatable manner. It typically includes stages like building, testing, and deploying code.",
+    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"},
+    {"ID#":17, "Term":"Infrastructure Automation","Description":"Infrastructure automation refers to the use of tools and scripts to automate the provisioning, configuration, and management of infrastructure resources. It reduces manual intervention and ensures consistency.",
+    "References":"Enterprise DevOps for Architects : Leveraging AIops and DevSecOps for secure digital transformation / Jeroen Mulder, Packt Publishing"},
+    {"ID#":18, "Term":"Branching","Description":"Branching occurs when an object under review in source control is duplicated so that other developers can work on it concurrently.",
+    "References":"https://www.plutora.com/devops-at-scale/terminology-glossary"},
+    {"ID#":19, "Term":"Commit","Description":"The process of pushing code to a source code repository and logging the changes that were made.",
+    "References":"https://www.plutora.com/devops-at-scale/terminology-glossary"},
+    {"ID#":20, "Term":"Infrastructure ","Description":"The whole complex of hardware, software, and processes required to run apps, as well as to collect, manage and store data. One of the most important benefits of DevOps practices is using the immutable infrastructure, which means that in case of error a clean state of infrastructure is launched immediately, rather than trying to fix the issue and suffering from downtime in the process.",
+    "References":"https://itsvit.com/blog/devops-glossary-78-basic-devops-terms-in-simple-words/"}
 
     ]
