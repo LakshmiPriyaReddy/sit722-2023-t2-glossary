@@ -46,6 +46,25 @@
     {"ID#":19, "Term":"Commit","Description":"The process of pushing code to a source code repository and logging the changes that were made.",
     "References":"https://www.plutora.com/devops-at-scale/terminology-glossary"},
     {"ID#":20, "Term":"Infrastructure ","Description":"The whole complex of hardware, software, and processes required to run apps, as well as to collect, manage and store data. One of the most important benefits of DevOps practices is using the immutable infrastructure, which means that in case of error a clean state of infrastructure is launched immediately, rather than trying to fix the issue and suffering from downtime in the process.",
-    "References":"https://itsvit.com/blog/devops-glossary-78-basic-devops-terms-in-simple-words/"}
-
+    "References":"https://itsvit.com/blog/devops-glossary-78-basic-devops-terms-in-simple-words/"},
+    {"ID#":21, "Term":"YAML File ","Description":"A YAML (YAML Ain't Markup Language) file is a human-readable data serialization format used for configuration files. It uses indentation to represent data structures and is commonly used for configuration files in DevOps, including Docker Compose and Kubernetes configurations.",
+    "References":"https://yaml.org/"},
+    {"ID#":22, "Term":"Docker ","Description":"Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and isolated environments that package applications and their dependencies, allowing them to run consistently across different environments.",
+    "References":"https://www.docker.com/what-docker"},
+    {"ID#":23, "Term":"Container Image ","Description":"A container image is a standalone, executable package that includes an application and all its dependencies, along with metadata on how to run the application. Docker images are a common type of container image.",
+    "References":"https://docs.docker.com/glossary/?term=image"},
+    {"ID#":24, "Term":"Dockerfile ","Description":"A Dockerfile is a text file that contains a set of instructions for building a Docker image. It specifies the base image, sets up the environment, installs dependencies, and defines how the application should run within the container.",
+    "References":"https://docs.docker.com/glossary/?term=Dockerfile"},
+    {"ID#":25, "Term":"Container Registry","Description":"A container registry is a repository where container images are stored and managed. It allows you to store, version, and distribute Docker or other container images for use in deploying applications.",
+    "References":"https://docs.docker.com/glossary/?term=registry"},
+    {"ID#":26, "Term":" Docker Compose","Description":"Docker Hub is a cloud-based registry service by Docker that hosts a vast collection of public and private Docker images. It allows developers to share and distribute container images easily.",
+    "References":"https://hub.docker.com/"},
+    {"ID#":27, "Term":" Containerization","Description":"Containerization is a technology that packages an application and its dependencies into a container image, allowing for consistent and isolated execution across different environments. Containers are portable and lightweight, making them ideal for deployment and scaling.",
+    "References":"https://www.docker.com/resources/what-container"},
+    {"ID#":28, "Term":"Registry ","Description":"An image registry is a repository for storing container images, allowing for their distribution and retrieval. Docker Hub, Google Container Registry (GCR), and Amazon Elastic Container Registry (ECR) are examples of image registries.",
+    "References":"https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html"},
+    {"ID#":29, "Term":" Docker Container ","Description":"A Docker container is a lightweight, standalone, and executable package that contains an application and its dependencies. Containers provide isolation, portability, and reproducibility, allowing applications to run consistently across different environments.",
+    "References":"https://www.docker.com/resources/what-container"},
+    {"ID#":30, "Term":"Docker Build","Description":"Docker Build is a command that creates a Docker image from a Dockerfile. A Dockerfile is a text file that contains instructions for building an image, including the base image, dependencies, and application code.",
+    "References":"https://docs.docker.com/engine/reference/commandline/build/"}    
     ]
