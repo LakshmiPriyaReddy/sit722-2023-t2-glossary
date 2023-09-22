@@ -66,5 +66,27 @@
     {"ID#":29, "Term":" Docker Container ","Description":"A Docker container is a lightweight, standalone, and executable package that contains an application and its dependencies. Containers provide isolation, portability, and reproducibility, allowing applications to run consistently across different environments.",
     "References":"https://www.docker.com/resources/what-container"},
     {"ID#":30, "Term":"Docker Build","Description":"Docker Build is a command that creates a Docker image from a Dockerfile. A Dockerfile is a text file that contains instructions for building an image, including the base image, dependencies, and application code.",
-    "References":"https://docs.docker.com/engine/reference/commandline/build/"}    
+    "References":"https://docs.docker.com/engine/reference/commandline/build/"},
+    {"ID#":31, "Term":"Terraform","Description":"Terraform is an open-source infrastructure as code (IaC) tool developed by HashiCorp. It allows you to define and provision infrastructure resources, such as virtual machines, networks, and databases, in a declarative manner using code.",
+    "References":"https://www.terraform.io/intro/index.html"},
+    {"ID#":32, "Term":"Provider","Description":"n Terraform, a provider is a plugin that enables interaction with specific cloud or infrastructure platforms, such as AWS, Azure, or Google Cloud. Providers define the resources that Terraform can manage within those platforms.",
+    "References":"https://www.terraform.io/docs/providers/index.html"},
+    {"ID#":33, "Term":"Resource","Description":"A resource in Terraform represents an infrastructure object, such as a virtual machine, database, or network. Resources are defined in Terraform configurations and managed by Terraform according to the desired state.",
+    "References":"https://www.terraform.io/docs/configuration/resources.html"},
+    {"ID#":34, "Term":"Module","Description":"A module in Terraform is a self-contained set of Terraform configurations that can be reused to provision infrastructure resources. Modules promote code reusability and maintainability by encapsulating and abstracting infrastructure components.",
+    "References":"https://www.terraform.io/docs/modules/index.html"},
+    {"ID#":35, "Term":"Plan","Description":" A Terraform plan is a preview of the changes that Terraform will make to the infrastructure based on the current configuration and state. It allows you to review and verify the intended changes before applying them.",
+    "References":"https://www.terraform.io/docs/cli/commands/plan.html"},
+    {"ID#":36, "Term":"Apply","Description":"In Terraform, the apply command is used to create, update, or delete infrastructure resources based on the Terraform configuration. It executes the changes defined in the configuration.",
+    "References":"https://www.terraform.io/docs/cli/commands/apply.html"},
+    {"ID#":37, "Term":"Variables","Description":"Terraform outputs allow you to define values in your Terraform configurations that can be displayed after an apply operation. Outputs can provide information about resource attributes, making it easier to access results.",
+    "References":"https://www.terraform.io/docs/configuration/outputs.html"},
+    {"ID#":38, "Term":"Backend Configuration","Description":"Backend configuration in Terraform refers to the settings that determine how Terraform stores and retrieves the state file. Examples include local state files, remote state backends (like AWS S3 or HashiCorp Consul), and configuration for locking and encryption.",
+    "References":"https://www.terraform.io/docs/backends/index.html"},
+    {"ID#":39, "Term":"Provisioner","Description":"Workspaces in Terraform allow you to create isolated environments within a single configuration. They are useful for managing multiple instances of the same infrastructure for different purposes, such as development, testing, and production.",
+    "References":"https://www.terraform.io/docs/state/workspaces.html"},
+    {"ID#":40, "Term":"Terraform Cloud","Description":"Terraform Cloud is a cloud-based platform provided by HashiCorp that offers collaborative features for Terraform users. It includes remote state management, collaboration tools, and automation capabilities.",
+    "References":"https://www.terraform.io/cloud"}
+    
+    
     ]
