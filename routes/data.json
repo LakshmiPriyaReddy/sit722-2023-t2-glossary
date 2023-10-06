@@ -65,6 +65,7 @@
     "References":"https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html"},
     {"ID#":29, "Term":" Docker Container ","Description":"A Docker container is a lightweight, standalone, and executable package that contains an application and its dependencies. Containers provide isolation, portability, and reproducibility, allowing applications to run consistently across different environments.",
     "References":"https://www.docker.com/resources/what-container"},
+    
     {"ID#":30, "Term":"Docker Build","Description":"Docker Build is a command that creates a Docker image from a Dockerfile. A Dockerfile is a text file that contains instructions for building an image, including the base image, dependencies, and application code.",
     "References":"https://docs.docker.com/engine/reference/commandline/build/"},
     {"ID#":31, "Term":"Terraform","Description":"Terraform is an open-source infrastructure as code (IaC) tool developed by HashiCorp. It allows you to define and provision infrastructure resources, such as virtual machines, networks, and databases, in a declarative manner using code.",
@@ -89,4 +90,25 @@
     "References":"https://www.terraform.io/cloud"}
     
     
+    {"ID#":41, "Term":"Kubernetes Pod","Description":"A Kubernetes Pod is the smallest deployable unit in a Kubernetes cluster. It represents a single instance of a running process in the cluster and can contain one or more containers that share network and storage resources.",
+    "References":"https://kubernetes.io/docs/concepts/workloads/pods/"},
+    {"ID#":42, "Term":"Container Registry","Description":"A container registry is a service or repository for storing and distributing container images. It allows developers to publish, share, and pull container images used in containerized applications.",
+    "References":"https://hub.docker.com/"},
+    {"ID#":43, "Term":"Database Server","Description":"A database server is a computer system or cloud-based service dedicated to managing and serving databases. It handles database storage, retrieval, and management, providing access to structured data.",
+    "References":"https://www.oracle.com/database/what-is-database/"},
+    {"ID#":44, "Term":"Kubernetes Cluster","Description":"A Kubernetes cluster is a set of physical or virtual machines that run containerized applications managed by Kubernetes. It consists of master and worker nodes and provides orchestration and scaling capabilities for containers.",
+    "References":"https://kubernetes.io/docs/concepts/overview/components/"},
+    {"ID#":45, "Term":"Load Balancer","Description":"A load balancer is a networking component used to distribute incoming network traffic across multiple servers or instances. In Kubernetes, it helps evenly distribute traffic among pods or services.",
+    "References":"https://aws.amazon.com/elasticloadbalancing/"},
+    {"ID#":46, "Term":"ReplicaSet","Description":"In Kubernetes, a ReplicaSet is a resource that ensures a specified number of pod replicas are running at all times. It helps with scaling and maintaining the desired number of identical pods.",
+    "References":"https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"},
+    {"ID#":47, "Term":"Database Cluster","Description":"A database cluster is a group of interconnected database servers or nodes working together to provide high availability, fault tolerance, and scalability for database services. It is commonly used for distributed databases.",
+    "References":"https://www.mongodb.com/docs/manual/sharding/"},
+    {"ID#":48, "Term":"RabbitMQ","Description":"RabbitMQ is an open-source message broker software that facilitates communication between different parts of a distributed application by implementing message queues. It is widely used for message-oriented middleware.",
+    "References":"https://www.rabbitmq.com/"},
+    {"ID#":49, "Term":"Ingress Controller","Description":"In Kubernetes, an Ingress Controller is a resource responsible for managing external access to services within the cluster. It allows you to define routing rules, SSL termination, and load balancing for HTTP and HTTPS traffic.",
+    "References":"https://kubernetes.io/docs/concepts/services-networking/ingress/"},
+    {"ID#":50, "Term":"Database Replication","Description":"Database replication is the process of copying and synchronizing data from one database server to one or more replica servers. It ensures data redundancy, fault tolerance, and improved read scalability in database systems.",
+    "References":"https://dev.mysql.com/doc/refman/8.0/en/replication.html"}
+
     ]
